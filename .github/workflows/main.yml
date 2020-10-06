@@ -9,7 +9,7 @@ jobs:
       id: hello
       env:
         G_NAME: 'World'
-      uses: codemonkey51/test-my-actions@1.4
+      uses: codemonkey51/test-my-actions@v1.4
       with:
         who-to-greet: 'Mona the Octocat'
     # Use the output from the `hello` step
