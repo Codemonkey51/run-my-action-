@@ -7,6 +7,8 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
+      env:
+        G_NAME: 'World'
       uses: codemonkey51/test-my-actions@v1.3
       with:
         who-to-greet: 'Mona the Octocat'
